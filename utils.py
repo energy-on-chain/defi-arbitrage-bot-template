@@ -20,7 +20,7 @@ def get_http_provider_connection(http, username, password):
     session.headers.update({'Authorization': 'Basic ' + b64})
     w3 = Web3(Web3.HTTPProvider(http, session=session))
     if w3.isConnected():
-        print('Web3 Connection to FTM node successfully established!')
+        print('Successfully established FTM web3 http connection!')
     else:
         print('Error establishing Web3 Connection!')
     return w3
