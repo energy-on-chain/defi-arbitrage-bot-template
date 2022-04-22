@@ -2,3 +2,4 @@ __init__.py/
 __pycache__/
 exchanges/__init__.py
 exchanges/__pycache__/
+.DS_Store
