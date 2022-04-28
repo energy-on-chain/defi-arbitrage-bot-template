@@ -9,7 +9,7 @@
 config_params = {
     'name': 'CVC FTM Arbitrage Bot (Bot #13)',
     'version': 'v0.1.0',    # maintain versioning based on https://semver.org/
-    'in_production': False,
+    'in_production': True,
     'frequency': 30,    # seconds
     'cloud_bucket_name': '',    # FIXME
     'cloud_bucket_path': '',    # FIXME
@@ -17,7 +17,7 @@ config_params = {
     'min_profitability': 1,    # usd
     'input_amount': 1,    # standard bet size for making arb calcs
     'frequency': 3,    # seconds between arbitrage checks
-    'screen_frequency': 30,
+    'monitor_frequency': 60,    # seconds
     'bet': 1000,    # coins
     'threshold': 0.5,
     'exchange_name_list': ['spookyswap', 'spiritswap'],

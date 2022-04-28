@@ -10,7 +10,6 @@ import datetime
 import utils
 import json
 from config import config_params
-from exchanges import spooky
 
 
 # AUTHENTICATE 
